@@ -5,14 +5,16 @@
 .date {
     margin-bottom: 3rem;
     color: #585858;
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .content {
     a {
         color: black;
     }
-
+    a:hover {
+        color: #585858;
+    }
     li {
         margin-bottom: 0.8rem;
     }

@@ -1,45 +1,18 @@
-.profileContainer img {
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    margin: 0 0 2rem 0;
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
-    }
-.online {
-    position: absolute;
-    background-color: #20CA45;
-    width: 14px;
-    height: 14px;
-    border-radius: 100px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    margin: -5.5rem 0 2rem 0;
-    animation: pulseAnim 2s infinite;
+.nav-home{
+    text-decoration: none;
 }
 
-.profileContainer img:hover {
-    box-shadow: 0 10px 20px rgba(0,0,0, 0.10);
+.me {
+    color: red;
 }
-
-.pulseAnim {
-    display: block;
-    padding: 16px;
-    border-radius: 50%;
-    background:hsl(243, 80%, 62%);
+.avatar {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin: 2px 16px 0 0;
     cursor: pointer;
-    box-shadow: 0 0 0 rgba(88, 120, 243, 0.4);
-    animation: pulseAnim 2s infinite;
-}
 
-@keyframes pulseAnim {
-    0% {
-        box-shadow: 0 0 0 0 rgba(32, 202, 69, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(32, 202, 69, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(32, 202, 69, 0);
+    img {
+      border-radius: 200px;
     }
 }

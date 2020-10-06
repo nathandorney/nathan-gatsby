@@ -9,9 +9,12 @@ const Avatar = () => {
 
     return (
         <Link to="/">
-            <div className={avatarStyles.profileContainer}>
-                <img src={Profile} alt="Avatar" />
-                <div className={avatarStyles.online}></div>
+            <div className="{avatarStyles.navHome">
+                <div className={avatarStyles.avatar}>
+                    <img src={Profile} alt="Avatar" />
+                </div>
+                
+                <p className={avatarStyles.me}>Nathan Dorney</p>
             </div>
         </Link>
     )

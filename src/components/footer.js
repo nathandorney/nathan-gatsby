@@ -3,18 +3,19 @@ import { Link } from 'gatsby'
 
 import footerStyles from './footer.module.scss'
 
-import Avatar from "../components/avatar"
 
 const Footer = () => {
 
     return (
         <footer>
-          <div className={footerStyles.avatar}>
-            <Avatar />
-          </div>
-  
-              <p className={footerStyles.message}>Thanks for reading! If you want to get in touch, you can find me on <a className={footerStyles.link} href="https://twitter.com/NathanDorney" target="_blank">Twitter</a> or send me a good old fashioned <a className={footerStyles.link} href="mailto: hello@nathandorney.co.uk">Email</a>.</p>
-              <Link className={footerStyles.button} to="/notes">See all notes</Link>
+          <div className={footerStyles.divider}></div>
+            <p>No, cookies, tracking or analytics.</p>
+              <Link className={footerStyles.button} to="/projects">#projects</Link>
+              <Link className={footerStyles.button} to="/notes">#notes</Link>
+              <Link className={footerStyles.button} to="/about">#about</Link>
+              <Link className={footerStyles.button} to="/reading">#reading</Link>
+              <Link className={footerStyles.button} to="/reading">#using</Link>
+
         </footer>
     )
 }
