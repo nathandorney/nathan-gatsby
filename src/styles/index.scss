@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,20 +6,19 @@
 }
 
 html {
-  font-family: 'Karla', sans-serif;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
   overflow-y: scroll;
 }
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;
 }
 
 h1 {
-  font-family: 'Karla', sans-serif;
   font-weight: 600;
   color: #111111;
   margin-bottom: 1.2rem;
@@ -29,7 +27,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Karla', sans-serif;
   font-weight: 600;
   color: #111111;
   margin-bottom: 1.2rem;
@@ -37,35 +34,30 @@ h2 {
   line-height: 1.3;
 }
 h3 {
-  font-family: 'Karla', sans-serif;
   font-weight: 500;
   color: #111111;
   margin-bottom: 1.45rem;
   font-size: 1.3rem;
 }
 h4 {
-  font-family: 'Karla', sans-serif;
   font-weight: 500;
   color: #111111;
   margin-bottom: 1.2rem;
   font-size: 1.3rem;
 }
 h5 {
-  font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: #111111;
   margin-bottom: 1.45rem;
   font-size: 1.5rem;
 }
 h6 {
-  font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: #111111;
   margin-bottom: 1.45rem;
   font-size: 1.5rem;
 }
 p {
-  font-family: 'Karla', sans-serif;
   font-weight: 400;
   color: #111111;
   margin-bottom: 1.45rem;
@@ -80,7 +72,7 @@ img {
 }
 
 ::selection {
-  background: #FFE380;
+  background: #FBEDD2;
 }
 
 ul {

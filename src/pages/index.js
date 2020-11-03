@@ -36,7 +36,7 @@ return (
       <header>
         <div className={introStyles.avatar}><Avatar /></div>
           <p className={introStyles.messageOne}>Hey, I’m Nathan.</p>
-          <p className={introStyles.message}>I'm trying to make your day better by creating digital products and websites that solve problems.</p>
+          <p className={introStyles.message}>I like to understand the needs of people and businesses in order to make digital products and websites more usable, enjoyable and meaningful.</p>
       </header>
           
       <section className={introStyles.noteSection}>
@@ -57,7 +57,7 @@ return (
               
       <section className={introStyles.contactSection}>
         <p className={introStyles.subtitle}>#contact</p>
-        <p className={introStyles.message}>Thanks for visiting my website. You can also find me on <a className={introStyles.externalLink} href="https://twitter.com/NathanDorney" target="_blank">Twitter</a> or send me a good old fashioned <a className={introStyles.externalLink} href="mailto: hello@nathandorney.co.uk">Email</a>.</p>    
+        <p className={introStyles.message}>Thanks for stopping by. You can also find me on <a className={introStyles.externalLink} href="https://twitter.com/NathanDorney" target="_blank">Twitter</a> or send me a good old fashioned <a className={introStyles.externalLink} href="mailto: hello@nathandorney.co.uk">Email</a>.</p>    
       </section>  
     
       <section className={introStyles.footerSection}>

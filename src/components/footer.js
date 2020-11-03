@@ -8,14 +8,8 @@ const Footer = () => {
 
     return (
         <footer>
-          <div className={footerStyles.divider}></div>
-            <p>No, cookies, tracking or analytics.</p>
-              <Link className={footerStyles.button} to="/projects">#projects</Link>
-              <Link className={footerStyles.button} to="/notes">#notes</Link>
-              <Link className={footerStyles.button} to="/about">#about</Link>
-              <Link className={footerStyles.button} to="/reading">#reading</Link>
-              <Link className={footerStyles.button} to="/reading">#using</Link>
-
+            <p className={footerStyles.message}>Thanks for reading</p>
+            <div className={footerStyles.button}>Read more</div>
         </footer>
     )
 }
